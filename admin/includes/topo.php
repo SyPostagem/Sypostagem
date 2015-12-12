@@ -8,14 +8,14 @@
                             class="icon-cog"></i> Opções <b class="caret"></b></a>
             <ul class="dropdown-menu">
 			<li><a href="../">Visualizar Site</a></li>
-              <li><a href="javascript:;">Adicionar Usuários</a></li>
-              <li><a href="javascript:;">Site em Manutenção</a></li>
+              <!--<li><a href="javascript:;">Adicionar Usuários</a></li>
+              <li><a href="javascript:;">Site em Manutenção</a></li>-->
             </ul>
           </li>
           <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
                             class="icon-user"><?php echo $nomeLogado;?></i><b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="javascript:;">Perfil</a></li>
+              <!--<li><a href="javascript:;">Perfil</a></li>-->
               <li><a href="?sair" onclick="return confirm('Gostaria de sair do sistema?');">Sair</a></li>
             </ul>
           </li>
@@ -53,14 +53,14 @@
           </ul>
         </li>
 		<?php }?>
-        <li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i><span>Usuários</span> <b class="caret"></b></a>
+        <!--<li class="dropdown"><a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user"></i><span>Usuários</span> <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">Visualizar</a></li>
             <li><a href="#">Cadastrar</a></li>
             <li><a href="#">Editar Perfil</a></li>
           </ul>
         </li>
-        <li><a href="#"><i class="icon-globe"></i><span>Manut. Site</span> </a></li>
+        <li><a href="#"><i class="icon-globe"></i><span>Manut. Site</span> </a></li>-->
         <li></li>
       </ul>
     </div>

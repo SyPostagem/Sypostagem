@@ -1,0 +1,33 @@
+-- Database: `sypostagem`
+--
+CREATE DATABASE IF NOT EXISTS `sypostagem` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `sypostagem`;
+
+-- Estrutura da tabela `tb_postagem`
+--
+
+DROP TABLE IF EXISTS `tb_postagem`;
+CREATE TABLE IF NOT EXISTS `tb_postagem` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(255) NOT NULL,
+  `data` varchar(12) NOT NULL,
+  `imagem` varchar(255) NOT NULL,
+  `exibir` varchar(5) NOT NULL,
+  `descricao` longtext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+
+
+-- Estrutura da tabela `login`
+--
+
+DROP TABLE IF EXISTS `login`;
+CREATE TABLE IF NOT EXISTS `login` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `usuario` varchar(255) NOT NULL,
+  `senha` varchar(255) NOT NULL,
+  `thumb` varchar(255) NOT NULL,
+  `nivel` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
